@@ -17,6 +17,7 @@
 
 * {
     font-family: var(--ff-inter);
+    font-size: 16px;
 }
 
 body {
@@ -29,8 +30,17 @@ body {
     padding: 0;
 }
 
-.nav a{
+.nav > li {
+    margin: 18px 0;
+}
+
+.sidebar-left .nav a {
     font-family: var(--ff-ss-mono);
+    font-weight: var(--fw-med);
+    font-size: 13px;
+}
+
+.nav a{
     color: var(--navigation);
     text-decoration: none;
 }
