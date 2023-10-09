@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Spline+Sans+Mono:wght@400;500&display=swap');
+
+:root {
+    --primary: #B6EBFF;
+    --light-blue: #DAF5FF;
+    --background: #1A2D3D;
+    --navigation: #D9D9D9;
+    --text-1: #EFEFEF;
+    --text-2: #8E979F;
+
+    --ff-ss-mono: 'Spline Sans Mono', monospace;
+    --ff-inter: 'Inter', sans-serif;
+    --fw-reg: 400;
+    --fw-med: 500;
+    --fw-bold: 700;
+}
+
+* {
+    font-family: var(--ff-inter);
+}
+
+body {
+    background-color: var(--background);
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    font-family: var(--ff-ss-mono);
+    color: var(--navigation);
+    text-decoration: none;
+}
