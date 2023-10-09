@@ -34,6 +34,20 @@ body {
     margin: 18px 0;
 }
 
+.sidebar-left {
+    position: fixed;
+    bottom: 45px;
+    left: 45px;
+    right: auto;
+}
+
+.sidebar-right {
+    position: fixed;
+    bottom: 45px;
+    left: auto;
+    right: 45px;
+}
+
 .sidebar-left .nav a {
     font-family: var(--ff-ss-mono);
     font-weight: var(--fw-med);
