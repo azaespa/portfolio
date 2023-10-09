@@ -18,6 +18,10 @@
 * {
     font-family: var(--ff-inter);
     font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
@@ -57,4 +61,39 @@ body {
 .nav a{
     color: var(--navigation);
     text-decoration: none;
+}
+
+main {
+    border: 0;
+    margin: 0 158px;
+    padding: 0 158px;
+}
+
+.hero-section {
+    color: var(--text-2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    color: var(--primary);
+    font-weight: var(--fw-reg);
+    font-family: var(--ff-ss-mono);
+}
+
+.hero-section h2 {
+    color: var(--text-1);
+    font-size: 54px;
+    margin-top: 21px;
+}
+
+.hero-section h3 {
+    font-size: 54px;
+    margin-bottom: 21px;
+}
+
+.hero-section p {
+    width: 50ch;
 }
