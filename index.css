@@ -69,8 +69,15 @@ main {
     padding: 0 158px;
 }
 
-.hero-section {
+h2 {
+    color: var(--text-1);
+}
+
+h3, p {
     color: var(--text-2);
+}
+
+.hero-section {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,7 +91,6 @@ main {
 }
 
 .hero-section h2 {
-    color: var(--text-1);
     font-size: 54px;
     margin-top: 21px;
 }
@@ -96,4 +102,17 @@ main {
 
 .hero-section p {
     width: 50ch;
+}
+
+.about-section {
+    padding: 3rem;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+
+.about-section p {
+    width: 70ch;
 }
