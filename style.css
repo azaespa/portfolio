@@ -68,11 +68,12 @@ body {
 }
 
 .introduction-container .introduction h1 {
-    font-size: 40px;
+    font-size: clamp(24px, 3vw, 3rem);
 }
 
 .introduction-container .introduction p {
     max-width: 55ch;
+    font-size: clamp(12px, 1vw, 14px);
 }
 
 .introduction-container .introduction .divider {
@@ -97,5 +98,13 @@ body {
         background: url(assets/img/james.png);
         background-position: center;
         background-size: cover;
+    }
+
+    .right .introduction-container {
+        padding: 0 3rem;
+    }
+
+    .introduction-container .introduction .divider {
+        width: 70px;
     }
 }
