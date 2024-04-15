@@ -91,7 +91,7 @@ body {
 .call-to-actions>button {
     padding: 0.75rem 1rem;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: #243E36;
 }
@@ -127,5 +127,9 @@ button.cta-projects {
 
     .introduction-container .introduction .divider {
         width: 70px;
+    }
+
+    .call-to-actions>button {
+        font-size: 12px;
     }
 }
